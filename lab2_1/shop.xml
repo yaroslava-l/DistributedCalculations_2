@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE shop SYSTEM "shop.dtd">
+<shop>
+<artist id="1" nickname="The Weeknd" realName="Abel" age="31">
+    <album id="11" name="Blinding Light" price="100" genre="Pop" year="2020" artistId="1"/>
+    <album id="12" name="The Hills" price="200" genre="Pop" year="2015" artistId="1"/>
+    <album id="13" name="Save your Tears" price="100" genre="Pop" year="2020" artistId="1"/>
+</artist>
+
+<artist id="2" nickname="Maroon 5" realName="Adam" age="26" >
+    <album id="21" name="Memories" price="500" year="2019" genre="Pop" artistId="2"/>
+    <album id="22" name="Beautiful Mistake" price="300" year="2019" genre="Pop" artistId="2"/>
+</artist>
+
+<artist id="3" nickname="Himalayas" realName="Mike" age="16">
+    <album id="31" name="Thank God I'm Not You" price="300" year="2017" genre="Rock" artistId="3"/>
+    <album id="32" name="Sigh On A Hurricane" price="200" year="2017" genre="Rock" artistId="3"/>
+    <album id="33" name="cheap thrills" price="200" year="2016" genre="Rock" artistId="3"/>
+</artist>
+</shop>

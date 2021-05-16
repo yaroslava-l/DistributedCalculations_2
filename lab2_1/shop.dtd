@@ -1,0 +1,20 @@
+<?xml encoding="UTF-8"?>
+
+        <!ELEMENT shop (artist)+>
+        <!ATTLIST shop>
+
+        <!ELEMENT artist (album)+>
+        <!ATTLIST artist
+                id CDATA #REQUIRED
+                nickname CDATA #REQUIRED
+                realName CDATA #REQUIRED
+                age CDATA  #REQUIRED>
+
+        <!ELEMENT album EMPTY>
+        <!ATTLIST album
+                id CDATA #REQUIRED
+                name CDATA #REQUIRED
+                price CDATA #REQUIRED
+                year CDATA #REQUIRED
+                genre CDATA #REQUIRED
+                artistId CDATA #REQUIRED>
